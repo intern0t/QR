@@ -1,0 +1,31 @@
+{
+  "name": "qrgenerate",
+  "version": "1.0.0",
+  "description": "Generates QR Code using QR-Image library!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Scarecr0w:floweringps@gitlab.com/Scarecr0w/qr-generate-remote.git"
+  },
+  "keywords": [
+    "QR",
+    "Code",
+    "QRCode",
+    "QRImage",
+    "Generator"
+  ],
+  "author": "Prashant Shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Scarecr0w/qr-generate-remote/issues"
+  },
+  "homepage": "https://gitlab.com/Scarecr0w/qr-generate-remote#README",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "qr-image": "^3.1.0"
+  }
+}
