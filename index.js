@@ -11,7 +11,7 @@ app.post('/', function (req, res) {
 		res.type('png');
 		generatedQR.pipe(res);
 	}else{
-		res.json({message:"Well, you know you aren't supposed to be here! Do you not understand English, you illiterate fuck?", youDumb:true});
+		res.json({message:"Well, you know you aren't supposed to be here! Do you not understand English?", youDumb:true});
 	}
 });
 
